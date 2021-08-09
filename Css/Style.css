@@ -552,124 +552,152 @@ i{
   }
 }
 
-@media (max-width: 768px) {
-  .header .logo {
-    width: 200px;
-  }
+@media (max-width: 768px){
 
-  .header .header-content {
-    text-align: center;
-    padding: 0 20px;
-  }
+    .header .logo {
+        width: 200px;
+    }
 
-  .header .header-text-1 {
-    margin-bottom: 40px;
-  }
+    .header .header-content {
+        text-align: center;
+        padding: 0 20px;
+    }
 
-  .header .header-text-2 {
-    display: none;
-  }
+    .header .header-text-1 {
+        margin-bottom: 40px;
+    }
 
-  .sub-header {
-    grid-template-columns: 1fr;
-    text-align: center;
-    gap: 20px;
-  }
+    .header .header-text-2 {
+        display: none;
+    }
 
-  .sub-header img {
-    width: 250px;
-    margin: auto;
-  }
+    .sub-header {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 20px;
+    }
 
-  .sub-header > div:last-of-type {
-    justify-self: center;
-    align-self: center;
-  }
+    .sub-header img {
+        width: 250px;
+        margin: auto;
+    }
 
-  .text-xl {
-    line-height: 1.3;
-    font-size: 40px;
-  }
+    .sub-header > div:last-of-type {
+        justify-self: center;
+        align-self: center;
+    }
 
-  .sub-text {
-    font-size: 20px;
-  }
+    .text-xl {
+        line-height: 1;
+        font-size: 40px;
+    }
 
-  .categories .covers {
-    grid-template-columns: 1fr 1fr;
-  }
-  
-  .live-border {
-    padding: 30px 10px;
-  }
+    .sub-text {
+        font-size: 20px;
+    }
 
-  .live-sports {
-    background: url('../images/live-sports-small.jpg') no-repeat center center /
-      cover;
-  }
+    .categories .covers {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .live-border {
+        padding: 30px 10px;
+    }
 
-  .live-sports-content {
-    top: 30px;
-    left: 30px;
-    margin-top: 60px;
-  }
+    .live-sports {
+        background: url('../images/live-sports-small.jpg') no-repeat center center /
+        cover;
+    }
 
-  .pricing-a{
-    display: flex;
-    flex-direction: column;
- }
- .price-list{
-     text-align: center;
- }
- .plans{
-     align-items: center;
-     justify-content: center;
-     padding-left: 20px;
-     margin: 0;
- }
- .plans-c{
-     font-size: 18px;
- }
+    .live-sports-content {
+        top: 30px;
+        left: 30px;
+        margin-top: 60px;
+    }
 
- #m{
-    padding-right: 0px;
-    padding-left: 40px;
+    .pricing-a{
+        display: flex;
+        flex-direction: column;
+    }
+    .price-list{
+        text-align: center;
+    }
+    .plans{
+        align-items: center;
+        justify-content: center;
+        padding-left: 10px;
+        margin: 0;
+    }
+    .plans-c{
+        font-size: 18px;
+    }
+    .plans-a{
+        margin: 0;
+    }
+    .plans-b span{
+        margin-top: 8px;
+    }
+    .plans-b span{
+        padding-left: 0px;
+    }
+    #m{
+        padding-right: 80px;
+        padding-left: 0px;
+    }
+    #g{
+        padding-right: 0px;
+        margin-left: 10px;
+    }
+    #a{
+        padding-right: 0px;
+        padding-left: 80px;
+
+    }
+    .plan-feature-bullet-text{
+        font-size: 15px;
+    }
+    
+    #s{
+        padding-right: 0px; 
+    }
+    #t{
+        margin-right: 80px;
+        margin-left: 80px;
+    }
+    #y{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .h3-1{
+        font-size: 35px;
+        font-weight: 700;
+    }
+    .footer-lists {
+        flex-direction: column;
+    }
+    .items{
+          text-align: center;
+          justify-content: center;
+          align-items: center;
+    }
+    .categories .covers > div {
+        height: 350px;
+        width: 170px;
+        position: relative;
+    }
+    .btnn {
+        display: inline-block;
+        color: #333;
+        min-width: 100px;
+        padding: 20px 10px;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 14px;
+        border: none;
+        border-radius: 5px;
+        letter-spacing: 1px;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
 }
-#g{
-    padding-right: 0px;
-    margin-left: 20px;
-}
-#a{
-    padding-right: 0px;
 
-}
-
-#s{
-    padding-right: 0px; 
-}
-#t{
-    margin-right: 80px;
-    margin-left: 80px;
-}
-#y{
-    margin-right: 0px;
-    margin-left: 0px;
-}
-.h3-1{
-    font-size: 35px;
-    font-weight: 700;
-}
-  .footer-lists {
-    flex-direction: column;
-  }
-  .items{
-      text-align: center;
-      justify-content: center;
-      align-items: center;
-  }
-  .categories .covers > div {
-    height: 400px;
-    width: 200px;
-    position: relative;
-  }
-}
