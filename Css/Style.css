@@ -382,7 +382,7 @@ h4 {
 .btnn {
     display: inline-block;
     background: rgb(184, 42, 42);
-    color: #333;
+    color: #fff;
     min-width: 135px;
     padding: 20px 32px;
     font-size: 15px;
@@ -427,11 +427,14 @@ h4 {
     align-items: center;
     border-bottom: 1px solid #edeff2;
 }
+
+
 i{
     font-size: 30px;
     padding-top: 20px;
     animation: up-and-down 1s infinite alternate ;
 }
+
 @keyframes up-and-down{
     0%{
         transform: translateY(0);
@@ -543,6 +546,7 @@ i{
     display: flex;
     justify-content: space-between;
     font-size: 12px;
+    flex-wrap: wrap;
     margin-top: 10px;
 }
 /* Media Queries */
@@ -619,6 +623,7 @@ i{
         display: flex;
         flex-direction: column;
     }
+
     .price-list{
         text-align: center;
     }
@@ -635,10 +640,10 @@ i{
         margin: 0;
     }
     .plans-b span{
+        padding-left: 10px;
         margin-top: 8px;
-    }
-    .plans-b span{
-        padding-left: 0px;
+        padding-right: 10px;
+
     }
     #m{
         padding-right: 80px;
@@ -655,14 +660,17 @@ i{
     }
     .plan-feature-bullet-text{
         font-size: 15px;
+        font-weight: 700;
     }
-    
     #s{
-        padding-right: 0px; 
+        margin-left: 0px; 
+        padding-right: 0px;
     }
     #t{
-        margin-right: 80px;
-        margin-left: 80px;
+        margin-right: 0px;
+        margin-left: 0px;
+        padding-right: 70px;
+        padding-left: 70px;
     }
     #y{
         margin-right: 0px;
@@ -671,6 +679,7 @@ i{
     .h3-1{
         font-size: 35px;
         font-weight: 700;
+        line-height: 1;
     }
     .footer-lists {
         flex-direction: column;
@@ -687,7 +696,6 @@ i{
     }
     .btnn {
         display: inline-block;
-        color: #333;
         min-width: 100px;
         padding: 20px 10px;
         font-size: 12px;
@@ -698,6 +706,13 @@ i{
         letter-spacing: 1px;
         cursor: pointer;
         text-transform: uppercase;
+    }
+    .plan-feature-bullet-text img{
+        width: 15px;
+    }
+    .footer-bottom{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 }
 
